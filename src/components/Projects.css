@@ -1,0 +1,108 @@
+.tela-projects{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    flex-direction: column;
+    
+}
+.ponto{
+    color: red;
+ }
+
+
+
+/* CONTAINER COM TODOS OS CARDS*/
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+    gap: 80px;
+}
+
+.container .card{
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(66, 50, 50, 0.5);
+    border-radius: 15px;
+    background: rgba(rgb(112, 81, 81), green, blue, alpha);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(66, 50, 50, 0.5);
+    border-left: 1px solid rgba(66, 50, 50, 0.5);
+}
+
+.container .card:hover{
+    transform: scale(1.01);
+    transition: .3s;
+}
+
+.container .card .content{
+    padding: 20px;
+    text-align: -webkit-center;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.container .card:hover .content{
+    transform: scale(1.01);
+    transition: 0.5s;
+}
+
+.container .card .content h2{
+    font-size: 1.8em;
+    color: white;
+    
+}
+
+.container .card .content h3{
+    font-size: 1em;
+    color: white;
+    
+}
+
+.container .card .content p{
+    font-size: 1em;
+    color: white;
+    
+}
+
+.container .card .content .links{
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+}
+
+.container .card .content .links a{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(114, 88, 88, 0.5);
+    
+}
+
+.container .card .content .links a:hover {
+    background-color: rgba(114, 88, 88, 0.5);
+    color: white;
+}
+
+h3{
+    color: white;
+}

@@ -1,0 +1,82 @@
+.tela-start h1{
+    color: white;
+    padding: 30px 4%;
+    font-size: 32px;
+
+}
+
+a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tela-start .info{
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info{
+    display: flex;
+    padding: 40px 4%;
+}
+
+.ft-apresentacao{
+    padding: 40px 4%;
+}
+
+.descricao{
+    padding: 40px 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    
+}
+
+.contatos{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 4%;
+}
+
+.btn{
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(114, 88, 88, 0.5);
+}
+
+.btn:hover{
+    background-color: rgba(114, 88, 88, 0.5);
+    color: white;
+}
+
+p{
+    color: #fff;
+}
+
+.span-ponto{
+    color: red;
+    font-size: 60px;
+}
+
+
+.ft-apresentacao{
+    height: 400px;
+}
+
+
+
+
