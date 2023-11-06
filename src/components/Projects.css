@@ -73,8 +73,14 @@
 .container .card .content p{
     font-size: 0.7rem;
     color: white;
+    display: flex;
+    height: 200px;
+    margin-top: 15px;
+    
      
 }
+
+
 
 
 .container .card .content .links{

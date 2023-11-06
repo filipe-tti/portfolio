@@ -58,6 +58,7 @@
 .technology-info p{
     font-size: 12px;
     height: 250px;
+    padding: 20px;
 }
 
 .icon svg {

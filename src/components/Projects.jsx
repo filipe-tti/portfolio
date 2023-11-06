@@ -17,8 +17,8 @@ const Projects = () => {
 
               <div className="links">
 
-                <a href="https://github.com/filipe-tti/secret-word">Github</a>
-                <a href="#">Link</a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/filipe-tti/secret-word">Github</a>
+                <a target="_blank" rel="noreferrer" href="#">Link</a>
               </div>
 
           </div>
@@ -32,8 +32,8 @@ const Projects = () => {
 
               <div className="links">
 
-                <a href="https://github.com/filipe-tti/quiz-javascript">Github</a>
-                <a href="#">Link</a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/filipe-tti/quiz-javascript">Github</a>
+                <a target="_blank" rel="noreferrer" href="#">Link</a>
               </div>
 
           </div>
@@ -47,8 +47,8 @@ const Projects = () => {
 
               <div className="links">
 
-                <a href="https://github.com/filipe-tti/portfolio">Github</a>
-                <a href="#">Link</a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/filipe-tti/portfolio">Github</a>
+                <a target="_blank" rel="noreferrer" href="#">Link</a>
               </div>
 
           </div>
@@ -62,8 +62,8 @@ const Projects = () => {
 
               <div className="links">
 
-                <a href="https://github.com/filipe-tti/calculator">Github</a>
-                <a href="#">Link</a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/filipe-tti/calculator">Github</a>
+                <a target="_blank" rel="noreferrer" href="#">Link</a>
               </div>
 
           </div>

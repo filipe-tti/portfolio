@@ -12,7 +12,7 @@
     flex-direction:column;
 }
 
-p{
+.tela-about .conteudo p{
     padding: 40px;
     width: 70%;
     

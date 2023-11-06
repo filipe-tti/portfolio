@@ -21,10 +21,10 @@ const Navbar = () => {
 
             <lu>
 
-              <AnchorLink className="li" href="#home">Ínicio</AnchorLink>
-              <AnchorLink className="li" href="#expertise">Especialidades</AnchorLink>
-              <AnchorLink className="li" href="#about">Sobre mim</AnchorLink>
-              <AnchorLink className="li" href="#projects">Projetos</AnchorLink>
+              <AnchorLink className="li" href="#home" offset='100'>Ínicio</AnchorLink>
+              <AnchorLink className="li" href="#expertise" offset='100'>Especialidades</AnchorLink>
+              <AnchorLink className="li" href="#about" offset='100'>Sobre mim</AnchorLink>
+              <AnchorLink className="li" href="#projects" offset='100'>Projetos</AnchorLink>
 
             </lu>
 
