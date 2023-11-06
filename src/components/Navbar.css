@@ -1,0 +1,84 @@
+.tela-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index:2;
+    
+    
+    
+}
+
+img{
+    height: 70px;
+}
+
+.contato-home{
+    display: flex;
+    align-items: center;
+}
+  
+.menu-desktop{ 
+    max-width: 1280px;
+    margin: 0 auto;   
+    
+}
+  
+.menu-desktop a{
+    color: #383636;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+.menu-desktop a:hover{
+    color: #fff;
+    transform: scale(1.10);
+    transition: .2s;
+}
+  
+  
+  
+  
+.menu-desktop ul{
+    list-style-type: none;
+}
+  
+  
+.menu-desktop ul li{
+    display: inline-block;
+    padding: 0 40px;
+    
+}
+  
+  
+  
+.contato-home .btn-contato{
+    
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+    padding: 12px 24px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(114, 88, 88, 0.5);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .contato-home .btn-contato:hover{
+    background-color: rgba(114, 88, 88, 0.5);
+    color: white;
+  }
+
+  .smooth-scroll {
+    scroll-behavior: smooth;
+  }

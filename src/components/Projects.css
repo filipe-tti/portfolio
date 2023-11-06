@@ -71,14 +71,15 @@
 }
 
 .container .card .content p{
-    font-size: 1em;
+    font-size: 0.7rem;
     color: white;
-    
+     
 }
+
 
 .container .card .content .links{
     gap: 20px;
-    padding: 10px;
+    
     align-items: center;
     display: flex;
     justify-content:center;

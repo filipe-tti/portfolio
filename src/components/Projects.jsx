@@ -13,12 +13,12 @@ const Projects = () => {
           <div className="content">
              <h2>Secret Word</h2>
               <h3>HTML/CSS/JS</h3>
-              <p>lkfj lskdjfklsaj kflsdjak ljfsdkl jksdfjkfjsdkljf klsdjfkldsj kjfdskljf</p>
+              <p>É um jogo simples baseado em JavaScript que desafia os jogadores a adivinharem uma palavra oculta.</p>
 
               <div className="links">
 
-                <a href="#">Github</a>
-                <a href="#">Site</a>
+                <a href="https://github.com/filipe-tti/secret-word">Github</a>
+                <a href="#">Link</a>
               </div>
 
           </div>
@@ -26,14 +26,14 @@ const Projects = () => {
 
         <div className="card">
           <div className="content">
-             <h2>Quiz React</h2>
+             <h2>Quiz JS</h2>
               <h3>HTML/CSS/JS</h3>
-              <p>lkfj lskdjfklsaj kflsdjak ljfsdkl jksdfjkfjsdkljf klsdjfkldsj kjfdskljf</p>
+              <p>jogo de respostas sobre uma série de perguntas beseado em um tópico específico. </p>
 
               <div className="links">
 
-                <a href="#">Github</a>
-                <a href="#">Site</a>
+                <a href="https://github.com/filipe-tti/quiz-javascript">Github</a>
+                <a href="#">Link</a>
               </div>
 
           </div>
@@ -47,8 +47,8 @@ const Projects = () => {
 
               <div className="links">
 
-                <a href="#">Github</a>
-                <a href="#">Site</a>
+                <a href="https://github.com/filipe-tti/portfolio">Github</a>
+                <a href="#">Link</a>
               </div>
 
           </div>
@@ -56,14 +56,14 @@ const Projects = () => {
 
         <div className="card">
           <div className="content">
-             <h2>Secret Word</h2>
+             <h2>Calculadora</h2>
               <h3>HTML/CSS/JS</h3>
               <p>lkfj lskdjfklsaj kflsdjak ljfsdkl jksdfjkfjsdkljf klsdjfkldsj kjfdskljf</p>
 
               <div className="links">
 
-                <a href="#">Github</a>
-                <a href="#">Site</a>
+                <a href="https://github.com/filipe-tti/calculator">Github</a>
+                <a href="#">Link</a>
               </div>
 
           </div>

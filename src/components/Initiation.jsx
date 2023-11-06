@@ -1,6 +1,6 @@
-import "./Start.css"
+import "./Initiation.css"
 
-const Start = () => {
+const Initiation = () => {
   return (
  
      <div className="tela-start">
@@ -18,12 +18,7 @@ const Start = () => {
 
       </div>
 
-      <div className="contatos">
-          <button className="btn">GitHub</button>
-          <button className="btn">Whatsapp</button>
-          <button className="btn">Linkedin</button>
-      </div>
-
+      
       
      </div>  
     
@@ -34,4 +29,4 @@ const Start = () => {
   )
 }
 
-export default Start
+export default Initiation

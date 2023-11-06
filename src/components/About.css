@@ -27,3 +27,28 @@ h2{
 .pont{
     color: red;
 }
+
+.images{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 80px;
+    align-items: center;
+    
+    flex-wrap:wrap;
+    
+  
+    
+}
+
+.img{
+    width: 280px;
+    height: 280px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px rgba(114, 108, 108, 0.3)
+}
+
+.img:hover{
+    transform: scale(1.01);
+    transition: .3s;
+}

@@ -1,0 +1,43 @@
+.tela-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    
+}
+
+.contact-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.pont{
+    color: red;
+}
+
+.btn-contact{
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+    padding: 12px 24px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(114, 88, 88, 0.5);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;/
+}
+
+.btn-contact:hover{
+    background-color: rgba(114, 88, 88, 0.5);
+    color: white;
+}
