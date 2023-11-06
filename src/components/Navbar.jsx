@@ -1,4 +1,5 @@
 import "./Navbar.css"
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 
@@ -15,15 +16,25 @@ const Navbar = () => {
 
     <nav className="menu-desktop"> 
 
-          <ul>
-              <li><a href="/">Inicio</a></li>
-              <li><a href="/expertise">Especialidades</a></li>
-              <li><a href="/about">Sobre mim</a></li>
-              <li><a href="/projects">Projetos</a></li>
-          </ul>
+
+          <nav  className="menu-desktop">
+
+            <lu>
+
+              <AnchorLink className="li" href="#home">Ínicio</AnchorLink>
+              <AnchorLink className="li" href="#expertise">Especialidades</AnchorLink>
+              <AnchorLink className="li" href="#about">Sobre mim</AnchorLink>
+              <AnchorLink className="li" href="#projects">Projetos</AnchorLink>
+
+            </lu>
+
+          </nav>
+
+
       </nav>
       <div className="contato-home">
-      <button className='btn-contato'>Contato</button>
+      
+      <AnchorLink className='btn-contato' href="#contact">Contato</AnchorLink>
     </div>
 
    
