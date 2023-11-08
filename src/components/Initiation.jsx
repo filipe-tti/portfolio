@@ -7,7 +7,7 @@ const Initiation = () => {
       <div className="info">
 
         <div className="ft-apresentacao">
-            <img className="ft-apresentacao" src="src/img/apresentacao.png" alt="" />
+            <img src="src/img/apresentacao.png" className="ft-apresentacao" alt="foto perfil" />
         </div>
 
         <div className="descricao">
