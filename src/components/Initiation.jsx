@@ -12,7 +12,7 @@ const Initiation = () => {
 
         <div className="descricao">
           <h1 className="h1-apresentacao">Desenvolvedor front end<span className="span-ponto">.</span> </h1>
-          <p>Bem vindo ao meu portfólio!</p>
+          <p>Bem vindo ao meu portfólio, aqui você encontrará informações sobre mim e meus projetos!</p>
         </div>
 
 
