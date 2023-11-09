@@ -1,6 +1,24 @@
+import { useState,useEffect,useRef } from "react"
 import "./About.css"
+import {motion} from 'framer-motion'
+
+import filipe01 from '../img/filipe01.jpg'
+import filipe02 from '../img/filipe02.jpg'
+import filipe03 from '../img/filipe03.jpg'
+import filipe04 from '../img/filipe04.jpg'
+
+const imgs = [filipe01,filipe02,filipe03,filipe04]
 
 const About = () => {
+
+  const carousel = useRef()
+  const [width,setWidth] = useState(0)
+
+  useEffect(() => {
+     console.log (carousel.current?.scrollWidth,carousel.current?.offsetWidth)
+     setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth)
+  }, [])
+
   return (
     <div className="tela-about">
 
@@ -15,16 +33,23 @@ const About = () => {
 
            <div className="images">
 
-            <img className="img" src="src/src/img/filipe01.jpg" alt="" />
-            <img className="img" src="src/portfolio/src/img/filipe02.jpg" alt="" />
-            <img className="img" src="src/img/filipe03.jpg" alt="" />
-            <img className="img" src="src/img/filipe04.jpg" alt="" />
+            <motion.div ref={carousel} className="carousel" whileTap={{cursor: "grabbing"}} initial={{x:100}} animate={{x:0}} >
+              <motion.div className="inner" drag="x" dragConstraints={{right:0, left: -width}} transition={{duration: 0.8}}>
+                  {imgs.map(image => (
+                      <motion.div className="item" key={image}> 
+                        <img src={image} alt="texto alt"/>
+
+                        </motion.div>
+                  ))}
+              </motion.div>
+                    
+            </motion.div>  
+            
 
             
 
            </div>
          
-
           
       </div>
         

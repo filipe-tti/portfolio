@@ -12,8 +12,8 @@ const Projects = () => {
         <div className="card">
           <div className="content">
              <h2>Secret Word</h2>
-              <h3>HTML/CSS/JS</h3>
-              <p>É um jogo simples baseado em JavaScript que desafia os jogadores a adivinharem uma palavra oculta.</p>
+              <h3>JS/REACT</h3>
+              <p>Jogo que desafia os jogadores a adivinharem uma palavra oculta.</p>
 
               <div className="links">
 
@@ -27,8 +27,8 @@ const Projects = () => {
         <div className="card">
           <div className="content">
              <h2>Quiz JS</h2>
-              <h3>HTML/CSS/JS</h3>
-              <p>jogo de respostas sobre uma série de perguntas beseado em um tópico específico. </p>
+              <h3>JS/REACT</h3>
+              <p>jogo de perguntas e respostas sobre uma série de perguntas beseado em um tópico específico de tecnologia ou comida por exemplo. </p>
 
               <div className="links">
 
@@ -42,8 +42,8 @@ const Projects = () => {
         <div className="card">
           <div className="content">
              <h2>Portfólio</h2>
-             <h3>HTML/CSS/JS</h3>
-             <p>Jogo de palavras</p>
+             <h3>JS/REACT/SASS</h3>
+             <p>Esse portfólio.</p>
 
               <div className="links">
 
@@ -57,8 +57,8 @@ const Projects = () => {
         <div className="card">
           <div className="content">
              <h2>Calculadora</h2>
-              <h3>HTML/CSS/JS</h3>
-              <p>lkfj lskdjfklsaj kflsdjak ljfsdkl jksdfjkfjsdkljf klsdjfkldsj kjfdskljf</p>
+              <h3>JS</h3>
+              <p>Calculadora com desigh do iphone desenvolvida em JS.</p>
 
               <div className="links">
 

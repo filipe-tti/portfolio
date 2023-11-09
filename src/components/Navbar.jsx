@@ -3,6 +3,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 
+
 const Navbar = () => {
   return (
     <div className="tela-navbar">
