@@ -28,7 +28,7 @@ const About = () => {
              <h2>Sobre mim<span className="pont">.</span></h2>
      
 
-           <p>Apaixonado por programação e fascinado por aprender de diferentes maneiras e experiências, sempre buscando conhecimentos que me possibilitam expandir áreas de conhecimento com o objetivo á médio prazo de me tornar um desenvolvedor full stack. Nesse momento estou focado em aperfeiçoar minhas habilidades nas tecnologias de front-end como JavaScript, HTML5 e CSS3, buscando aprimorar através de cursos online e livros que funcionam muito bem comigo pois considero bem didáticos e se torna fluido. </p>
+           <p>Dedicado á aprender e praticar a programação buscando sempre mais conhecimento e experiencia, sou cativado pelo front-ent onde consigo usar minha criativade e organização para evoluir meus codigos. Nesse momento estou focado em aperfeiçoar minhas habilidades em JS com React criando interfaces dinamicas e organizadas em componentes, assim como aperfeiçoar minha estilização no CSS e criação de interfaces no Figma. Tenho como objetivo evoluir meus conhecimentos em Typescript,SASS e Tailwind CSS a curto prazo e seguindo apaixonado pelo processo da busca de conhecimento contínuo.</p>
 
 
            <div className="images">

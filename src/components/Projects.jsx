@@ -42,7 +42,7 @@ const Projects = () => {
         <div className="card">
           <div className="content">
              <h2>Portfólio</h2>
-             <h3>JS/REACT/SASS</h3>
+             <h3>JS/REACT</h3>
              <p>Esse portfólio.</p>
 
               <div className="links">
@@ -57,7 +57,7 @@ const Projects = () => {
         <div className="card">
           <div className="content">
              <h2>Calculadora</h2>
-              <h3>JS</h3>
+              <h3>JS/REACT</h3>
               <p>Calculadora com desigh do iphone desenvolvida em JS.</p>
 
               <div className="links">
