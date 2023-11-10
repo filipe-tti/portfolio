@@ -58,6 +58,11 @@ a svg{
     height: 35px;
 }
 
+a svg:hover{
+    transform: scale(1.2);
+    transition: .3s;
+}
+
 
 #wpp{
     color: 	#25D366;
