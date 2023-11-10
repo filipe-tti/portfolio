@@ -1,4 +1,5 @@
 import "./Initiation.css"
+import Ponto from './Ponto'
 
 
 const Initiation = () => {
@@ -12,7 +13,7 @@ const Initiation = () => {
         </div>
 
         <div className="descricao">
-          <h1 className="h1-apresentacao">Desenvolvedor front end<span className="span-ponto">.</span> </h1>
+          <h1 className="h1-apresentacao">Desenvolvedor front end<Ponto/> </h1>
           <p>Bem vindo ao meu portfólio, aqui você encontrará informações sobre mim e meus projetos!</p>
         </div>
 

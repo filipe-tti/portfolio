@@ -1,11 +1,12 @@
 import "./Projects.css"
+import Ponto from './Ponto'
 
 const Projects = () => {
   return (
     <div className="tela-projects">
       
         
-      <h2>Meus projetos<span className="ponto">.</span></h2>
+      <h2>Meus projetos<Ponto/></h2>
 
       <div className="container">
 

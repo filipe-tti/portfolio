@@ -1,4 +1,5 @@
 import "./Expertise.css"
+import Ponto from './Ponto'
 import {
  
 } from "react-icons/di"
@@ -45,7 +46,7 @@ function TechnologiesContainer() {
 const Expertise = () => {
   return (
     <div className="tela-expertise">
-        <h2>Minhas especialidades<span className="ponto">.</span></h2>
+        <h2>Minhas especialidades<Ponto/></h2>
         <TechnologiesContainer/>
         
     </div>

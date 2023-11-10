@@ -1,9 +1,11 @@
 import "./Contact.css"
+import Ponto from './Ponto'
+
 const Contact = () => {
   return (
     <div className="tela-contact">
    
-        <h2>Meus contatos<span className="pont">.</span></h2>
+        <h2>Meus contatos<Ponto/></h2>
 
             <div className="contact-content">
                 <a target="_blank" rel="noreferrer" className="btn-contact" href='https://github.com/filipe-tti'>Github</a>
