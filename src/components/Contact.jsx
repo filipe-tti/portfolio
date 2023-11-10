@@ -1,6 +1,16 @@
 import "./Contact.css"
 import Ponto from './Ponto'
 
+import {
+  SiGmail,
+  SiWhatsapp,
+  SiLinkedin,
+  SiGithub,
+
+  
+ 
+} from "react-icons/si"
+
 const Contact = () => {
   return (
     <div className="tela-contact">
@@ -8,12 +18,36 @@ const Contact = () => {
         <h2>Meus contatos<Ponto/></h2>
 
             <div className="contact-content">
-                <a target="_blank" rel="noreferrer" className="btn-contact" href='https://github.com/filipe-tti'>Github</a>
-               
-                <a target="_blank" rel="noreferrer" className="btn-contact" href="https://www.linkedin.com/in/filipe-x-/" >Linkedin</a>
-                
-                <a target="_blank" rel="noreferrer"  className="btn-contact" href="https://wa.me/5547996655148?text=Ol%C3%A1%21"  >Whatsapp</a>
+
+
+              <div className="contacts">
+                <a target="_blank" rel="noreferrer"  id="email" href="mailto:filipe18tti@gmail.com?subject=&body="><SiGmail/></a>
+                <p>Email</p>
+              </div>
+
+              <div className="contacts">
+                <a target="_blank" rel="noreferrer"  id="wpp" href="https://wa.me/5547996655148?text=Ol%C3%A1%21"><SiWhatsapp/></a>
+                <p>Whatsapp</p>
+              </div>
+
+              <div className="contacts">
+                <a target="_blank" rel="noreferrer"  id="linkedin" href="https://www.linkedin.com/in/filipe-x-/"><SiLinkedin/></a>
+                <p>Linkedin</p>
+              </div>
+
+              <div className="contacts">
+                <a target="_blank" rel="noreferrer"  id="github" href="https://github.com/filipe-tti"><SiGithub/></a>
+                <p>Github</p>
+              </div>
+
+
             </div>
+
+            
+
+           
+            
+      
 
     </div>
   )

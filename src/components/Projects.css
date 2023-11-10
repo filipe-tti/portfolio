@@ -106,7 +106,7 @@
 }
 
 .container .card .content .links a:hover {
-    background-color: rgba(114, 88, 88, 0.5);
+    background-color: #FF0000;
     color: white;
 }
 

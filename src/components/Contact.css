@@ -41,3 +41,33 @@
     background-color: rgba(114, 88, 88, 0.5);
     color: white;
 }
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px;
+    
+
+}
+
+a svg{
+    width: 50px;
+    height: 35px;
+}
+
+
+#wpp{
+    color: 	#25D366;
+    
+}
+
+#linkedin{
+    color: #0A66C2;
+}
+
+#email{
+    color: white;
+}
