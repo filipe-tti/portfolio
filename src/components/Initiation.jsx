@@ -2,6 +2,10 @@ import "./Initiation.css"
 import Ponto from './Ponto'
 
 
+import apresentacao from '../img/apresentacao.png'
+
+const logoApresentacao = [apresentacao]
+
 const Initiation = () => {
   return (
  
@@ -9,7 +13,7 @@ const Initiation = () => {
       <div className="info">
 
         <div className="ft-apresentacao">
-            <img src="src/img/apresentacao.png" className="ft-apresentacao" alt="foto perfil" />
+            <img src={logoApresentacao} className="ft-apresentacao" alt="foto perfil" />
         </div>
 
         <div className="descricao">

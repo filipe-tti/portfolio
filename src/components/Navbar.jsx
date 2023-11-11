@@ -2,7 +2,9 @@ import "./Navbar.css"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
+import logo from '../img/logo.png'
 
+const logoPng = [logo]
 
 const Navbar = () => {
   return (
@@ -11,7 +13,7 @@ const Navbar = () => {
     <div className="logo">
 
       <a href="#">
-        <img src="src/img/logo.png" alt="minha logo" />
+        <img src={logoPng} alt="minha logo" />
       </a>
     </div>
 
