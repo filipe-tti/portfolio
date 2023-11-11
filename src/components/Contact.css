@@ -20,7 +20,7 @@
 
 .btn-contact{
     font-weight: bold;
-    font-size: 12px;
+    font-size: 11px;
     display: flex;
     padding: 12px 24px;
     background: white;
@@ -52,7 +52,7 @@
 }
 
 a svg{
-    width: 50px;
+    width: 80px;
     height: 35px;
 }
 

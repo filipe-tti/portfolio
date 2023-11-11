@@ -11,6 +11,14 @@ import {
  
 } from "react-icons/si"
 
+
+import {
+
+  MdFileDownload,
+  
+ 
+} from "react-icons/md"
+
 const Contact = () => {
   return (
     <div className="tela-contact">
@@ -38,6 +46,11 @@ const Contact = () => {
               <div className="contacts">
                 <a target="_blank" rel="noreferrer"  id="github" href="https://github.com/filipe-tti"><SiGithub/></a>
                 <p>Github</p>
+              </div>
+
+              <div className="contacts">
+                <a target="_blank" rel="noreferrer"  id="cv" href="#"><MdFileDownload/></a>
+                <p>Baixar CV</p>
               </div>
 
 
