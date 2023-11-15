@@ -49,7 +49,7 @@ const Contact = () => {
               </div>
 
               <div className="contacts">
-                <a target="_blank" rel="noreferrer"  id="cv" href="#"><MdFileDownload/></a>
+                <a target="_blank" rel="noreferrer"  id="cv" href="https://drive.google.com/drive/folders/126Dio_1q-Y9JR39TkbYC3BMggSw3wuTq"><MdFileDownload/></a>
                 <p>Baixar CV</p>
               </div>
 
