@@ -42,14 +42,14 @@ const Projects = () => {
 
         <div className="card">
           <div className="content">
-             <h2>Portfólio</h2>
+             <h2>Previsão do Tempo</h2>
              <h3>JS/REACT</h3>
-             <p>Esse portfólio.</p>
+             <p>Previsão do tempo na semana desenvolvido atraves da API da openweather</p>
 
               <div className="links">
 
-                <a target="_blank" rel="noreferrer" href="https://github.com/filipe-tti/portfolio">Repositório</a>
-                <a target="_blank" rel="noreferrer" href="#">Link</a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/filipe-tti/react-previsao">Repositório</a>
+                <a target="_blank" rel="noreferrer" href="https://filipe-tti.github.io/react-previsao/">Link</a>
               </div>
 
           </div>
