@@ -57,14 +57,14 @@ const Projects = () => {
 
         <div className="card">
           <div className="content">
-             <h2>Calculadora</h2>
+             <h2>Loja Virtual</h2>
               <h3>JS/REACT</h3>
-              <p>Calculadora com desigh do iphone desenvolvida em JS.</p>
+              <p>Loja virtual ...</p>
 
               <div className="links">
 
-                <a target="_blank" rel="noreferrer" href="https://github.com/filipe-tti/calculator">Repositório</a>
-                <a target="_blank" rel="noreferrer" href="#">Link</a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/filipe-tti/loja-react">Repositório</a>
+                <a target="_blank" rel="noreferrer" href="https://filipe-tti.github.io/loja-react/">Link</a>
               </div>
 
           </div>
