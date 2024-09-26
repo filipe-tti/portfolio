@@ -142,7 +142,7 @@ img{
     top: 0;
     right: 0;
     z-index: 9999999;
-    width: 00%;
+    width: 70%;
     text-align: right;
     overflow: hidden;
     
@@ -205,5 +205,8 @@ img{
      align-items: center; 
 }
 
+.menu-mobile.abrir-menu{
+  width: 70%;
+}
   
 
