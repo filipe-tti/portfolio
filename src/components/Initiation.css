@@ -75,5 +75,23 @@ p{
 }
 
 
+@media screen and ( max-width: 800px){
+
+    .ft-apresentacao{
+        width: 250px;
+        height: 250px;
+    }
+
+    .tela-start h1{
+      
+        font-size: 20px;
+    
+    }
+
+    .info{
+       
+    }
 
 
+
+}

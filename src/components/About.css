@@ -80,3 +80,8 @@ h2{
     cursor: grab;
     overflow: hidden;
 }
+
+
+@media screen and ( max-width: 800px){
+ 
+}

@@ -116,3 +116,18 @@ img{
 }
 
 
+@media screen and ( max-width: 800px){
+
+
+
+
+h2{
+  font-size: 15px;
+}
+
+p{
+  font-size: 10px;
+}
+
+
+}
