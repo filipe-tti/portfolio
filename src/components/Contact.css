@@ -72,9 +72,13 @@ a svg:hover{
     .contacts{
    
         gap: 10px;
-        padding: 10px;
+      padding: 5px;
         
     
+    }
+
+    p{
+        font-size: 12px;
     }
  
 }
