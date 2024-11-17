@@ -10,6 +10,7 @@ import About from './components/About'
 import Expertise from './components/Expertise'
 import Contact from './components/Contact'
 import Navbar from './components/Navbar'
+import Slide from './components/Slide';
 
 
 function App() {
@@ -24,9 +25,12 @@ function App() {
 
         <div id='home'></div><Initiation/>
         <div id='expertise'></div><Expertise/>
-        <div id='about'> <About/></div>
+        <div id='expertise'></div><About/>
+        <Slide/>
+
         <div id='projects'></div><Projects/>
-        <div id='contact'></div><Contact/>
+        <div id='projects'></div><Contact/>
+        
   
       </div>
  

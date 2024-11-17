@@ -1,56 +1,143 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;  
-     
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+   
 }
 
 .geral{
-  padding: 40px 4%;
-  background-color: black;
-  height: 100vh; 
-  max-width: 1280px;
-  margin: 0 auto;
+padding: 40px 4%;
+background-color: black;
+height: 100vh; 
+max-width: 1280px;
+margin: 0 auto;
 }
 
 .interface{
-  
-  display: flex;
-  align-items: center;
+
+display: flex;
+align-items: center;
 }
 
 img{
-  height: 70px;
+height: 70px;
 }
 
 .menu-desktop{ 
-  max-width: 1280px;
-  margin: 0 auto;   
+max-width: 1280px;
+margin: 0 auto;   
 }
 
 .menu-desktop a{
-  color: #383636;
-  text-decoration: none;
-  display: inline-block;
+color: #383636;
+text-decoration: none;
+display: inline-block;
 }
 
 .menu-desktop a:hover{
-  color: #fff;
-  transform: scale(1.10);
-  transition: .2s;
+color: #fff;
+transform: scale(1.10);
+transition: .2s;
 }
 
 
 
 
 .menu-desktop ul{
-  list-style-type: none;
+list-style-type: none;
 }
 
 
 .menu-desktop ul li{
+display: inline-block;
+padding: 0 40px;
+}
+
+
+
+.contato-home .btn-contato{
+position: relative;
   display: inline-block;
-  padding: 0 40px;
+  padding: 8px 20px;
+  margin-top: 15px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: 500;
+  box-shadow: 0 5px 15px rgba(114, 88, 88, 0.5);
+}
+
+.contato-home .btn-contato:hover{
+background-color: rgba(114, 88, 88, 0.5);
+color: white;
+}
+
+
+#wpp{
+color: 	#25D366;
+
+}
+
+#linkedin{
+color: #0A66C2;
+}
+
+#email{
+color: white;
+}
+
+#js{
+color: #f0db4f;
+
+}
+#figma{
+color: #83cd29;
+}
+
+#mysql{
+color: #00618a;
+}
+#react{
+color: #61dafb;
+}
+#sass{
+color: #CD6799;
+}
+#typescript{
+color: #007acc;
+}
+#github{
+color: #4183C4;
+}
+
+#cv{
+color: white;
+}
+
+
+@media screen and ( max-width: 925px){
+
+h1{
+font-weight: 400;
+}
+
+
+h2{
+font-size: 15px;
+font-weight: 300;
+}
+
+h3{
+font-weight: 200;
+}
+
+p{
+font-size: 10px;
+font-weight: 100;
+}
+
+
 }
 
 
@@ -113,29 +200,4 @@ img{
 
 #cv{
   color: white;
-}
-
-
-@media screen and ( max-width: 800px){
-
-h1{
-  font-weight: 400;
-}
-
-
-h2{
-  font-size: 15px;
-  font-weight: 300;
-}
-
-h3{
-  font-weight: 200;
-}
-
-p{
-  font-size: 10px;
-  font-weight: 100;
-}
-
-
 }

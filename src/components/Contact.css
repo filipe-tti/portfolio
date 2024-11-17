@@ -62,15 +62,21 @@ a svg:hover{
 }
 
 
-@media screen and ( max-width: 800px){
+@media screen and ( max-width: 900px){
+
+    a svg{
+        width: 30px;
+        height: 20px;
+    }
+
     .contacts{
-       
-        gap: 2px;
+   
+        gap: 10px;
         padding: 10px;
         
     
     }
-
+ 
 }
 
 
