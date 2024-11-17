@@ -25,11 +25,11 @@ function App() {
 
         <div id='home'></div><Initiation/>
         <div id='expertise'></div><Expertise/>
-        <div id='expertise'></div><About/>
+        <div id='about'></div><About/>
         <Slide/>
 
         <div id='projects'></div><Projects/>
-        <div id='projects'></div><Contact/>
+        <div id='contact'></div><Contact/>
         
   
       </div>

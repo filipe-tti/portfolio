@@ -16,8 +16,8 @@
 }
 
 .tela-about .conteudo p{
-    padding: 40px;
-    width: 70%;
+   
+    width: 100%;
     
     
 }
@@ -40,8 +40,12 @@ h2{
     .tela-about{
        
         padding: 20px;
-       
         
+        
+    }
+
+    .conteudo p {
+        margin-top: 20px;
     }
 
  
