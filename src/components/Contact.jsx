@@ -50,7 +50,7 @@ const Contact = () => {
 
               <div className="contacts">
                 <a target="_blank" rel="noreferrer"  id="cv" href="https://drive.google.com/uc?export=download&id=1dnw3Q6Qh4qzAFxnR_URIA5UN5NhsJO1N"><MdFileDownload/></a>
-                <p>Baixar CV</p>
+                <p>Currículo</p>
               </div>
 
 
